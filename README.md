@@ -1,4 +1,4 @@
-# Glue branded radios
+# Glue branded Checkboxes
 ## Overview
 An interface to select one or more options. It provides both an editable input field as well as a static visual view.
 
@@ -32,7 +32,7 @@ Settings are for init purposes only, none of the options are bound.
 
     $scope.settings1 = {  
       name: "myTest",
-      //value: "abc",
+      //value: ["abc"],
       options:[
         {label:"abc",value:"abc"},
         {label:"def",value:"def"},
@@ -64,7 +64,7 @@ Settings are for init purposes only, none of the options are bound.
     // Api Method call examples
     myApi.disable();     // Disabled the input field leaving text visible but not editable.
     myApi.enable();      // Enables editing of the input field
-    myApi.setValue("abc");  // Sets the value of the input field
+    myApi.setValue(["abc"]);  // Sets the value of the input field
     myApi.getValue();       // returns "abc", the value of the input field
     myApi.setOptions(["abc","def"]) // replaces existing options
     myApi.getOptions()      // returns ["abc","def"]

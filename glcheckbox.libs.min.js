@@ -1,5 +1,5 @@
 /*! 
-  glCheckbox v(0.0.3) 
+  glCheckbox v(0.0.5) 
   (c) 2013-2015
   https://gluenetworks.kilnhg.com/Code/Web-Development
   Release Date: 2015-04-06 
